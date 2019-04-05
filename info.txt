@@ -63,4 +63,4 @@ Diseñaremos una pequeña pagina we
 
 9- git init, git status
 
-
+10- git add .
