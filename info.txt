@@ -1,0 +1,66 @@
+
+
+nota :vamos a Node JS
+    seleccionamos la api mas resiente 
+    selleccionamos http
+
+
+##Express##
+Diseñaremos una pequeña pagina we
+
+1- npm install express --save
+   instalamos express 
+
+2- Descargamos en getbootstrap 
+   file surces - descargar fuente
+   en la carpeta dist/css y js
+   copiamos a public
+3- En bootstrap descargamos un poco de front
+   en la pagina de bootstrap
+   en documentation  bucamos navbar y copiamos  el codigo html y pegamos en home.html
+   luego agregamos un jumbotron de la misma manera
+
+4- importamos el javascript 
+   en el mismo html para derale vida ja
+
+5- en bootstrapCDN copiamos el enlace de las librerias de jquery
+   y lo pecagos antes del scrypt js
+
+--handlebars  npm hbs (usa la sintaxis de handlebars)
+   para hacer dinamicos los templates
+  son como los template tags de django jeje
+
+ *npm install hbs --save
+
+ ##Heroku servicio en la nuve
+
+ 1- ingresamos https://www.heroku.com/
+
+ 2- me registre con 
+
+    nota: solo se permiten 5 apps
+ 3- new - crear nueva app
+    app name
+    pais 
+    crear app
+4- Herou CLI 
+   lo usaremos para subir nuestro codigo 
+   damos clicl en heroku CLI y descargamos para nuestro SO
+   e instalamos
+5- heroku -v 
+
+6-configuramos los  puertos en server.js
+
+7-"start": "node server.js"
+   agregamos esto al package.json para que en heroku se ejecute archivo principal
+   npm start prueba con este comando //start es una palabra reservada
+   "nodemon": "nodemon server.js" podemos hacaer lo mismo con el node
+   pero ahora para ejecutarlo hacemos npm run nodemon como en django jeje
+
+   nota: heroku trabaja en base a git por lo tanto 
+
+8. creamos git ignore
+
+9- git init, git status
+
+
